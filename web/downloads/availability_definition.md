@@ -6,4 +6,4 @@ Injury-free gaps, first-to-last-injury spans, the dataset's nominal five seasons
 
 The **Recorded Availability Burden Profile** reports records, reported days and games missed, median/max duration, repeated-label events and the union of recorded inclusive date intervals. It contains no availability percentage. An interval union is an absence-date summary and is never divided by an invented observation window.
 
-To establish true percentages later, obtain player identifiers, registration and transfer intervals, complete eligibility/fixture records, competitions, a valid observation period, absence completeness and return/clearance meaning. Exposure-based incidence additionally requires measured player-hours. Data integration is deferred until Milestone 1 review.
+To establish true percentages later, obtain player identifiers, registration and transfer intervals, complete eligibility/fixture records, competitions, a valid observation period, absence completeness and return/clearance meaning. Exposure-based incidence additionally requires measured player-hours. Integration and modeling require those verified inputs before they can be scientifically supported.

@@ -32,3 +32,5 @@ reports/tables/*.csv
 notebooks/*.ipynb
 !notebooks/public_review.ipynb
 docs/data_dictionary.md
+
+.vercel

@@ -95,3 +95,5 @@ Sanan Muzaffarov, [European Football Injuries (2020–2025), Kaggle version 2](h
 **Public release 1.0:** descriptive analysis, scientific audit, cited discussion and open reproduction. Future incidence, availability or time-to-return modeling first requires adjudicated episodes, verified identity, clinical endpoint meaning and eligible exposure windows. More modeling does not repair a missing denominator.
 
 Original code: [MIT](LICENSE). Derived tables and figures: [CC BY-SA 4.0 attribution and transformation notice](DATA_LICENSE.md). Scientific articles retain their own rights; findings are paraphrased and linked without republishing full articles or third-party figures. See [CITATION.cff](CITATION.cff) and the [bibliography](references/references.bib). The public release does not redistribute the original CSV or individual medical histories.
+
+The published Kaggle notebook wrapper displays Apache License 2.0. It does not replace MIT for the original project source or CC BY-SA 4.0 for derived tables/figures. The [notebook-license notice](NOTEBOOK_LICENSE.md) documents that platform distinction.

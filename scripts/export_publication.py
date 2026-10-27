@@ -69,6 +69,7 @@ def export():
         'quality_summary.csv':'reports/tables/quality_summary.csv',
         'methodology.md':'docs/methodology.md','availability_definition.md':'docs/availability_definition.md',
         'data_dictionary.md':'docs/public_data_dictionary.md','data_license.md':'DATA_LICENSE.md',
+        'notebook_license.md':'NOTEBOOK_LICENSE.md',
         'references.bib':'references/references.bib','literature_search.md':'docs/literature_search.md',
     }
     for dest,source in files.items():
@@ -99,7 +100,7 @@ def export():
         for folder in ['src','scripts','tests','docs','references','web']:
             for file in (ROOT/folder).rglob('*'):
                 if file.is_file() and '__pycache__' not in file.parts and file.suffix!='.zip' and file!=ROOT/'docs/data_dictionary.md':archive.write(file,file.relative_to(ROOT))
-        for file in ['requirements.txt','requirements-lock.txt','README.md','LICENSE','DATA_LICENSE.md','CITATION.cff','package.json','vercel.json']:
+        for file in ['requirements.txt','requirements-lock.txt','README.md','LICENSE','DATA_LICENSE.md','NOTEBOOK_LICENSE.md','CITATION.cff','package.json','vercel.json']:
             archive.write(ROOT/file,file)
         archive.write(ROOT/'data/raw/manifest.json','data/raw/manifest.json')
         archive.write(ROOT/'reports/dataset_summary.json','reports/dataset_summary.json')

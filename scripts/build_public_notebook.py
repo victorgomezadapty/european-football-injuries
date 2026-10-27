@@ -14,7 +14,7 @@ def build(execute=False):
 
 **Víctor Andrés Gómez López · 2026**
 
-An independent aggregate analysis of recorded football absences. The original data were created by **Sanan Muzaffarov**, [European Football Injuries (2020–2025), Kaggle version 2](https://www.kaggle.com/datasets/sananmuzaffarov/european-football-injuries-2020-2025/versions/2), listed as **CC BY-SA 4.0**. Derived data and figures retain that license; original notebook code/prose is MIT. Transformations: explicit date/duration parsing, record-quality audit, raw-label aggregation and candidate same-interval sensitivity. See the bundled data-license notice.
+An independent aggregate analysis of recorded football absences. The original data were created by **Sanan Muzaffarov**, [European Football Injuries (2020–2025), Kaggle version 2](https://www.kaggle.com/datasets/sananmuzaffarov/european-football-injuries-2020-2025/versions/2), listed as **CC BY-SA 4.0**. Derived data and figures retain that license. Original project source is MIT; the Kaggle-published notebook wrapper uses Apache License 2.0, with original notices retained. Neither code license replaces the data license. Transformations: explicit date/duration parsing, record-quality audit, raw-label aggregation and candidate same-interval sensitivity. See the bundled data-license and notebook-license notices.
 
 This review loads **derived aggregate statistics**, not the original raw CSV or individual medical histories. It does not estimate true injury incidence, availability percentages, clinical recovery prognosis or prospective injury risk. No independent medical-source verification has been completed.
 
@@ -120,7 +120,7 @@ The accompanying `reproducible_source.zip`, methodology, search record, DOI bibl
               'code_file':'football_burden_review.ipynb','language':'python','kernel_type':'notebook',
               'is_private':False,'enable_gpu':False,'enable_internet':False,
               'dataset_sources':['vctorandrsgmezlpez/european-football-injuries-burden-analysis'],
-              'competition_sources':[],'kernel_sources':[],'model_sources':[],'license_name':'mit'}
+              'competition_sources':[],'kernel_sources':[],'model_sources':[]}
     (target/'kernel-metadata.json').write_text(json.dumps(metadata,indent=2)+'\n',encoding='utf-8')
     print('Aggregate-only public notebook '+('executed and saved.' if execute else 'built.'))
 
