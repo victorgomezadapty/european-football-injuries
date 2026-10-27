@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the analysis and separately credit the original dataset and its CC BY-SA 4.0 license."
+title: "Football Injury Burden and Player Availability Analytics"
+type: software
+version: 1.0.0
+date-released: 2026-10-27
+authors:
+  - family-names: Gómez López
+    given-names: Víctor Andrés
+repository-code: "https://github.com/victorgomezadapty/european-football-injuries"
+url: "https://european-football-injuries.vercel.app"
+license: MIT
+abstract: "Reproducible descriptive analysis of recorded football absences, burden, same-label histories and recording sensitivity. Derived data and figures retain CC BY-SA 4.0 attribution; no availability percentage or future injury risk is estimated."
+references:
+  - type: data
+    title: "European Football Injuries (2020–2025)"
+    authors:
+      - family-names: Muzaffarov
+        given-names: Sanan
+    url: "https://www.kaggle.com/datasets/sananmuzaffarov/european-football-injuries-2020-2025/versions/2"
+    version: "2"
+    license: CC-BY-SA-4.0

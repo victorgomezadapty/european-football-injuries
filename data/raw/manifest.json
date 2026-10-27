@@ -1,0 +1,17 @@
+{
+  "dataset": "sananmuzaffarov/european-football-injuries-2020-2025",
+  "version": 2,
+  "source_url": "https://www.kaggle.com/api/v1/datasets/download/sananmuzaffarov/european-football-injuries-2020-2025?datasetVersionNumber=2",
+  "dataset_page": "https://www.kaggle.com/datasets/sananmuzaffarov/european-football-injuries-2020-2025",
+  "retrieved_at_utc": "2026-10-26T07:26:16.531898+00:00",
+  "acquisition_method": "browser_download",
+  "license_as_shown_on_kaggle": "CC BY-SA 4.0",
+  "archive_sha256": "3f4d67b5b42170a9b96bd16ec66ac014d2f9ddd46b4d17ec6f9e8fa3dea60066",
+  "files": [
+    {
+      "name": "full_dataset_thesis - 1.csv",
+      "bytes": 1600846,
+      "sha256": "7fe92cda4c9b0e55be4edc6253b2343d888121f6dac5ba08cbac326bfccc5f45"
+    }
+  ]
+}

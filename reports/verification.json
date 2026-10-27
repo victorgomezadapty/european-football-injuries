@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "raw_rows_reconciled": 15603,
+  "source_sha256": "7fe92cda4c9b0e55be4edc6253b2343d888121f6dac5ba08cbac326bfccc5f45",
+  "independent_total_days": 563314,
+  "independent_total_games": 85928,
+  "checks": "source checksum; dimensions; identity-label counts; all duration conventions; group totals; player totals; interval-union upper bound; executed notebooks; deferred phases"
+}

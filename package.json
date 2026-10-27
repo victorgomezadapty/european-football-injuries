@@ -1,0 +1,13 @@
+{
+  "name": "european-football-injuries",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible football injury burden research and bilingual interactive case study",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "test": "node --test tests/web.test.mjs",
+    "dev": "node scripts/serve-site.mjs"
+  },
+  "engines": {"node": ">=20"}
+}

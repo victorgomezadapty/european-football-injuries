@@ -1,0 +1,12 @@
+column,missing_count,missing_pct,unique_nonmissing,source_dtype
+Season,0,0.0,5,string
+Injury,0,0.0,276,string
+Days,0,0.0,374,string
+Games missed,0,0.0,77,string
+injury_from_parsed,0,0.0,1729,string
+injury_until_parsed,0,0.0,1737,string
+player_name,0,0.0,4081,string
+player_age,0,0.0,28,string
+player_position,0,0.0,14,string
+club,0,0.0,145,string
+league,0,0.0,5,string

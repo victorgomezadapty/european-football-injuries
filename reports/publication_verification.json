@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "public_data": "aggregate statistics only",
+  "data_license": "CC-BY-SA-4.0",
+  "code_license": "MIT",
+  "checked": "release file hashes; public/bundle byte equality; no individual CSV fields; no raw data or credential directories in source zip; executed public notebook"
+}

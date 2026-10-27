@@ -1,0 +1,20 @@
+(() => {
+  const assert=(condition,message)=>{if(!condition)throw new Error(message);};
+  const select=(id,value)=>{const el=document.getElementById(id);el.value=value;el.dispatchEvent(new Event('change',{bubbles:true}));};
+  const count=()=>document.querySelector('.kpi strong').textContent.replace(/[^\d]/g,'');
+  assert(count()==='15603','Original total did not render');
+  select('view-filter','candidate');assert(count()==='14611','Sensitivity total did not update');
+  select('view-filter','raw');select('league-filter','Bundesliga');assert(count()==='4094','League filter did not update');
+  select('league-filter','all');
+  const cruciate=[...document.querySelectorAll('.bubble')].find(el=>el.dataset.label==='Cruciate ligament tear');
+  cruciate.dispatchEvent(new MouseEvent('click',{bubbles:true}));
+  assert(document.querySelector('#injury-detail h3').textContent==='Cruciate ligament tear','Bubble selection failed');
+  assert(document.querySelectorAll('.bubble[tabindex="0"]').length===1,'Chart roving tab stop failed');
+  const next=cruciate.nextElementSibling;cruciate.focus();cruciate.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));
+  assert(document.activeElement!==cruciate,'Arrow navigation failed');
+  document.querySelector('[data-lang="en"]').click();assert(document.documentElement.lang==='en','Language switch failed');
+  assert(document.querySelector('h1').textContent.includes('The cost of'),'English heading missing');
+  document.querySelector('#motion-toggle').click();assert(document.body.classList.contains('motion-paused'),'Motion pause failed');
+  document.querySelector('[data-lang="es"]').click();
+  return JSON.stringify({status:'passed',checks:['source total','candidate total','league filter','bubble selection','chart keyboard','ES/EN','pause motion'],width:innerWidth,scrollWidth:document.documentElement.scrollWidth,font:getComputedStyle(document.body).fontFamily});
+})();

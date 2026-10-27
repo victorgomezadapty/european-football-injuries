@@ -1,0 +1,8 @@
+**
+!web
+!web/**
+!scripts
+!scripts/build-site.mjs
+!package.json
+!package-lock.json
+!vercel.json
