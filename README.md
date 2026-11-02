@@ -49,6 +49,17 @@ See [data acquisition](docs/data_acquisition.md) for the official download and v
 
 `requirements.txt` specifies compatible ranges. `reports/run_manifest.json` records the actual analysis runtime, source checksum and parameters. `requirements-lock.txt` records versions used for this delivery. The default analysis date is explicit and reproducible; change `--as-of` deliberately for a new review.
 
+## Injury-only lens and new analyses (design pass)
+
+The website now shows injuries only by default. It excludes 39 non-injury labels (3,093 records, for example Corona virus, Ill, Fitness, flu, Quarantine) with the same keyword filter used in Sports Rehab Intelligence; the explorer can switch back to all recorded absences. With that filter, Hamstring injury remains the most frequent label (1,256 records) and Cruciate ligament tear accounts for the most summed days (56,768, about 8% more than hamstring).
+
+Two descriptive analyses were added, both computed in the browser from `web/data/project.json`:
+
+- **Seasons.** 21/22 has the most records overall (3,406) but the fewest injury records (2,389), because 586 of its records are coronavirus. Summed injury days grow every season (92,528 in 20/21 to 115,815 in 24/25, +25%). The archive has no squads or exposure, so this may reflect source coverage or recorded duration rather than risk.
+- **Body regions.** Grouping labels by keyword, the knee is 14% of injury records and 30% of summed days. 39% of records use generic labels with no region.
+
+Summed days and matches can repeat episodes (see the duplicate sensitivity). `tests/design-pass.test.mjs` checks every number quoted here.
+
 ## Read the metrics correctly
 
 - Injury occurrence is a record count. Injury incidence needs exposure hours.
