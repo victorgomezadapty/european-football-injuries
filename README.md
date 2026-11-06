@@ -1,6 +1,8 @@
 # Football Injury Burden & Player Availability Analytics
 
-[Interactive bilingual study](https://european-football-injuries.vercel.app) · [Scientific discussion](https://european-football-injuries.vercel.app/evidence) · [Kaggle aggregate release](https://www.kaggle.com/datasets/vctorandrsgmezlpez/european-football-injuries-burden-analysis) · [Public review notebook](https://www.kaggle.com/code/vctorandrsgmezlpez/european-football-injury-burden-review) · [Portfolio](https://victor-gomez-portfolio.vercel.app/projects/european-football-injuries)
+[Interactive bilingual study](https://sports-rehab-intelligence.vercel.app/studies/european-football-injuries/) · [Scientific discussion](https://sports-rehab-intelligence.vercel.app/studies/european-football-injuries/evidence.html) · [Kaggle aggregate release](https://www.kaggle.com/datasets/vctorandrsgmezlpez/european-football-injuries-burden-analysis) · [Public review notebook](https://www.kaggle.com/code/vctorandrsgmezlpez/european-football-injury-burden-review) · [Portfolio](https://victor-gomez-portfolio.vercel.app/projects/european-football-injuries)
+
+The interactive app lives in the [Sports Rehab Intelligence atlas](https://sports-rehab-intelligence.vercel.app/studies/european-football-injuries/).
 
 **Sports Rehabilitation & Human Performance** · Repository name: `european-football-injuries`
 

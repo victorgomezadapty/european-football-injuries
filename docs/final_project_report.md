@@ -4,8 +4,8 @@ Delivery review: 27 October 2026. Analysis source snapshot: 26 October 2026.
 
 ## Published destinations
 
-- Interactive Spanish/English website: https://european-football-injuries.vercel.app
-- Critical discussion and bibliography: https://european-football-injuries.vercel.app/evidence
+- Interactive Spanish/English website: https://sports-rehab-intelligence.vercel.app/studies/european-football-injuries/
+- Critical discussion and bibliography: https://sports-rehab-intelligence.vercel.app/studies/european-football-injuries/evidence.html
 - Public source: https://github.com/victorgomezadapty/european-football-injuries
 - Derived aggregate dataset: https://www.kaggle.com/datasets/vctorandrsgmezlpez/european-football-injuries-burden-analysis
 - Executable public review: https://www.kaggle.com/code/vctorandrsgmezlpez/european-football-injury-burden-review

@@ -18,7 +18,7 @@ An independent aggregate analysis of recorded football absences. The original da
 
 This review loads **derived aggregate statistics**, not the original raw CSV or individual medical histories. It does not estimate true injury incidence, availability percentages, clinical recovery prognosis or prospective injury risk. No independent medical-source verification has been completed.
 
-[Interactive bilingual study](https://european-football-injuries.vercel.app) · [GitHub and full event-level reproduction](https://github.com/victorgomezadapty/european-football-injuries) · [Scientific discussion](https://european-football-injuries.vercel.app/evidence)
+[Interactive bilingual study](https://sports-rehab-intelligence.vercel.app/studies/european-football-injuries/) · [GitHub and full event-level reproduction](https://github.com/victorgomezadapty/european-football-injuries) · [Scientific discussion](https://sports-rehab-intelligence.vercel.app/studies/european-football-injuries/evidence.html)
 ''')]
     def code(s):cells.append(nbf.v4.new_code_cell(s))
     def md(s):cells.append(nbf.v4.new_markdown_cell(s))

@@ -8,7 +8,7 @@ authors:
   - family-names: Gómez López
     given-names: Víctor Andrés
 repository-code: "https://github.com/victorgomezadapty/european-football-injuries"
-url: "https://european-football-injuries.vercel.app"
+url: "https://sports-rehab-intelligence.vercel.app/studies/european-football-injuries/"
 license: MIT
 abstract: "Reproducible descriptive analysis of recorded football absences, burden, same-label histories and recording sensitivity. Derived data and figures retain CC BY-SA 4.0 attribution; no availability percentage or future injury risk is estimated."
 references:

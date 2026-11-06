@@ -56,7 +56,7 @@ def export():
         'player_record_distribution':[{'records':int(k),'names':int(v)} for k,v in counts.items()]}
     write_json(payload,web/'data/project.json')
     if not (web/'data/links.json').exists():
-        write_json({'github':GITHUB,'kaggle':SOURCE,'site':'https://european-football-injuries.vercel.app','portfolio':'https://victor-gomez-portfolio.vercel.app'},web/'data/links.json')
+        write_json({'github':GITHUB,'kaggle':SOURCE,'site':'https://sports-rehab-intelligence.vercel.app/studies/european-football-injuries/','portfolio':'https://victor-gomez-portfolio.vercel.app'},web/'data/links.json')
     downloads=web/'downloads';downloads.mkdir(exist_ok=True)
     files={
         'injury_burden.csv':'reports/tables/burden_by_injury_type_raw.csv',

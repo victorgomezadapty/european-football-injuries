@@ -26,7 +26,7 @@ Frequency, severity and cumulative burden are distinct. These records do not sup
 
 ## Project
 
-- [Interactive bilingual study](https://european-football-injuries.vercel.app)
+- [Interactive bilingual study](https://sports-rehab-intelligence.vercel.app/studies/european-football-injuries/)
 - [GitHub and reproduction instructions](https://github.com/victorgomezadapty/european-football-injuries)
-- [Scientific discussion](https://european-football-injuries.vercel.app/evidence)
+- [Scientific discussion](https://sports-rehab-intelligence.vercel.app/studies/european-football-injuries/evidence.html)
 - [Author portfolio](https://victor-gomez-portfolio.vercel.app)
